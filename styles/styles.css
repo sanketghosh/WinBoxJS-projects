@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-color: #03b803;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #262626;
+  color: #ccc;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* whole container  */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: auto;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+/* navigation bar  */
+
+.navbar {
+  width: 30%;
+}
+.navbar > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+}
+
+.navbar ul li {
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* main div  */
+/* name  */
+
+h1 {
+  color: var(--text-color);
+  font-size: 40px;
+  letter-spacing: -3px;
+  margin: 14px 0px 24px 0px;
+}
+
+/* cursor style  */
+.cursor {
+  font-weight: 700;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: var(--text-color);
+  }
+}
+
+/* find me online  */
+
+h3 {
+  margin-bottom: 18px;
+  font-size: 25px;
+  color: var(--text-color);
+}
+
+.social-links {
+  list-style: none;
+}
+
+.social-links > li {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* links  */
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/* hidden properties  */
+.hidden {
+  display: none;
+}
+
+/* hidden attributes headers  */
+h2 {
+  color: var(--text-color);
+  margin: 5px 12px;
+}
+
+p {
+  margin: 20px 12px;
+  font-weight: 600;
+}
+
+.contact-ul {
+  margin: 20px 12px;
+  list-style: none;
+  font-weight: 700;
+}
+
+/* ------------------WinBox styles */
+
+.wb-body {
+  background-color: #1e1d1d;
+}
