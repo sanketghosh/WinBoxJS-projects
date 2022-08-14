@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkSlate: #202129;
+  --darkerSlate: #191926;
+  --lightGray: #ebebeb;
+  --blue: #5a5aff;
+}
+
+body {
+  background: var(--darkSlate);
+  color: var(--lightGray);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  height: 80vh;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container h1 {
+  margin: 15px 5px 40px 5px;
+  font-family: "Rubik Distressed", cursive;
+}
+
+.details {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.details div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue);
+  color: var(--lightGray);
+  font-size: 20px;
+  border-radius: 2px;
+  font-weight: 500;
+  width: 196px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 10px 0px;
+}
+
+.link {
+  background-color: var(--darkerSlate);
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 3px var(--blue);
+  cursor: pointer;
+}
+
+.link a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+/* hidden props  */
+/* hidden properties  */
+.hidden {
+  display: none;
+}
+
+/* hidden attributes headers  */
+h2 {
+  color: var(--text-color);
+  margin: 5px 12px;
+  color: var(--blue);
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  margin: 20px 26px 20px 12px;
+  font-weight: 600;
+  color: var(--lightGray);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-weight: 25px;
+}
+
+.contact-ul {
+  margin: 20px 26px 20px 12px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* winbox style  */
+.wb-body {
+  background: var(--darkSlate);
+}
